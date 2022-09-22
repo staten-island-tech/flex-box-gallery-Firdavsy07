@@ -1,0 +1,28 @@
+html{
+background-color: peachpuff;
+font-size: 100%;
+}
+
+h1{
+max-width: 50%;
+text-align: center;
+
+}
+#mainheader{
+    font-size: 300%;
+ background-color: white;
+border-radius: 5px;
+padding: 5px;
+border: solid 2px maroon 
+}
+.card-parent{
+    font-size: 30px;
+    border: 5px solid coral;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.em
+
+.rem
