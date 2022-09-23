@@ -6,16 +6,16 @@ background-color: black;
 }
 
 h1{
-max-width: 50%;
+    max-width: 40%;
 text-align: center;
 
 }
 #mainheader{
     font-size: 300%;
     background-color: maroon;
-border-radius: 5px;
-padding: 5px;
-border: 2px
+    padding: 30px;
+    border-radius: 20px;
+    border: 10px
 }
 .card-parent{
     font-size: 30px;
