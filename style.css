@@ -6,29 +6,29 @@ background-color: black;
 }
 
 h1{
-    max-width: 40%;
 text-align: center;
 
 }
 #mainheader{
+    font
     font-size: 300%;
-    background-color: maroon;
-    padding: 30px;
-    border-radius: 20px;
-    border: 10px
+margin: 50px;
+color: silver
+
+    
 }
 .card-parent{
-    font-size: 100%;
-    width: 33vw;
-    border: 5px solid white;
-    border-radius: 5px;
+    display: flex;
+ justify-content: space-evenly;
+    flex-direction: row;
 
 }
 .card-child{
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
     align-items: center;
+    border: white solid;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 2% auto;
 }
 
 .em
@@ -36,6 +36,6 @@ text-align: center;
 .rem
 
 image{
-    max-height: 50px;
-    max-width: 50px;
+    max-height: 50px auto;
+    max-width: 50px auto;
 }
