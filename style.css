@@ -1,7 +1,7 @@
 html{
 background-color: peachpuff;
-font-size: 100%;
 color: white;
+font-size: 100%;
 background-color: black;
 }
 
@@ -18,13 +18,24 @@ text-align: center;
     border: 10px
 }
 .card-parent{
-    font-size: 30px;
+    font-size: 100%;
+    width: 33vw;
     border: 5px solid white;
     border-radius: 5px;
+
+}
+.card-child{
     display: flex;
+    justify-content: space-around;
+    flex-direction: row;
     align-items: center;
 }
 
 .em
 
 .rem
+
+image{
+    max-height: 50px;
+    max-width: 50px;
+}
