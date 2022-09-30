@@ -1,12 +1,15 @@
 html{
 background-color: peachpuff;
-color: white;
+color: black;
 font-size: 100%;
 background-color: black;
 }
 
 h1{
 text-align: center;
+
+
+
 
 }
 #mainheader{
@@ -21,21 +24,24 @@ color: silver
     display: flex;
  justify-content: space-evenly;
     flex-direction: row;
+    margin: ;
 
 }
 .card-child{
+    background-color: rgb(23, 26, 33);
     align-items: center;
-    border: white solid;
+    text-align: center;
+    border: white solid 1px;
+    border-width: 5px;
     padding: 5px;
     border-radius: 5px;
     margin: 2% auto;
+    max-height: 20%;
+    max-width: 20%;
 }
-
-.em
-
-.rem
-
-image{
-    max-height: 50px auto;
-    max-width: 50px auto;
+img{
+    border: solid black 2px;
+    max-height: 70%;
+    max-width: 70%;
+    object-fit: contain;
 }
