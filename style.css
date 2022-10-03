@@ -1,33 +1,29 @@
-html{
-background-color: peachpuff;
-color: black;
-font-size: 100%;
-background-color: black;
+html,body *{
+margin: 0%
+padding: 0%;
+font-size: 100%
 }
-
+html{
+    background-color: silver;
+}
 h1{
 text-align: center;
-
-
-
+font-size: 2rem;
 
 }
 #mainheader{
     font-family: 'Indie Flower', cursive;
-    font-size: 300%;
 margin: 50px;
-color: silver
-
-    
+color: black  
 }
 .card-parent{
     display: flex;
  justify-content: space-evenly;
     flex-direction: row;
-    margin: ;
 
 }
 .card-child{
+    color: white;
     background-color: rgb(23, 26, 33);
     align-items: center;
     text-align: center;
@@ -38,10 +34,16 @@ color: silver
     margin: 2% auto;
     max-height: 20%;
     max-width: 20%;
+    box-shadow: 1rem .5rem 1rem grey;
+
+}
+.rem-size{
+    font-size: 1rem;
 }
 img{
-    border: solid black 2px;
-    max-height: 70%;
-    max-width: 70%;
+    box-sizing: border-box;
+    border: solid white 2px;
+    max-height: 75%;
+    max-width: 75%;
     object-fit: contain;
 }
