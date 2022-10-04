@@ -43,7 +43,14 @@ color: black
 img{
     box-sizing: border-box;
     border: solid white 2px;
+    height: auto;
+    width: auto;
     max-height: 75% ;
-    max-width: 75% ;
-    object-fit: contain;
+    max-width: 75%;
+    object-fit:fill;
+    transition: all 0.5s;
+}
+
+img:hover{
+    transform: scale(2);
 }
