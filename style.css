@@ -32,9 +32,9 @@ color: black
     padding: 5px;
     border-radius: 5px;
     margin: 2% auto;
-    max-height: 20%;
-    max-width: 20%;
-    box-shadow: 1rem .5rem 1rem grey;
+    max-height: 20% ;
+    max-width: 20% ;
+    box-shadow: 1rem 1rem 1rem grey;
 
 }
 .rem-size{
@@ -43,7 +43,7 @@ color: black
 img{
     box-sizing: border-box;
     border: solid white 2px;
-    max-height: 75%;
-    max-width: 75%;
+    max-height: 75% ;
+    max-width: 75% ;
     object-fit: contain;
 }
