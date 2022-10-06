@@ -8,7 +8,7 @@ html{
 }
 h1{
 text-align: center;
-font-size: 2rem;
+font-size: 3rem;
 
 }
 #mainheader{
@@ -20,6 +20,7 @@ color: black
     display: flex;
  justify-content: space-evenly;
     flex-direction: row;
+    
 
 }
 .card-child{
@@ -35,6 +36,7 @@ color: black
     max-height: 20% ;
     max-width: 20% ;
     box-shadow: 1rem 1rem 1rem grey;
+    transition: all 0.5s;
 
 }
 .rem-size{
@@ -48,9 +50,15 @@ img{
     max-height: 75% ;
     max-width: 75%;
     object-fit:fill;
-    transition: all 0.5s;
+    
 }
 
-img:hover{
-    transform: scale(2);
+.card-child:hover{
+    transform: scale(1.25);
+}
+   
+#alert{
+border: black solid;
+margin: 1px; 
+position:fixed
 }
