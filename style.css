@@ -72,9 +72,15 @@ position:fixed
         display: flex;
      justify-content: space-evenly;
         flex-direction: column;
-        
-    
     }
+    html{
+        background-color: white;
+}
+#mainheader{
+    font-family: 'Indie Flower', cursive;
+margin: 50px;
+color: black
+}
 }
 
 .card-parent:hover .card-child:not(:hover){
