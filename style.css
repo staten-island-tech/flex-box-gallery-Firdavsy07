@@ -99,6 +99,7 @@ position:fixed
 
 #alert:hover{
  transform: scale(1.25);
+
 }
 @media (max-width:1080px){
     .card-parent{
@@ -118,6 +119,7 @@ color: black
 
 .card-parent:hover .card-child:not(:hover){
     transform: scale(0.9);
+    opacity: 70%;
 }
 
 @keyframes slidein {
@@ -131,4 +133,5 @@ color: black
       width: 50%;
     }
   }
+
 
