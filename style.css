@@ -9,6 +9,7 @@ font-size: 100%
   50%{background:white;}
 	100% { background: black; }
 }
+
 html{
     background:black; /* Fallback */
     animation: color 8s infinite linear;
@@ -19,9 +20,15 @@ font-size: 3rem;
 
 }
 #mainheader{
+    
+    text-align: center;
     font-family: 'Indie Flower', cursive;
-margin: 50px;
-color: white 
+    border: 3px solid white;
+    background: black;
+margin: auto;
+width: 50%;
+color: white;
+
 }
 .card-parent{
     display: flex;
