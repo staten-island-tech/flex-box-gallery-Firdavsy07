@@ -25,9 +25,12 @@ font-size: 3rem;
     font-family: 'Indie Flower', cursive;
     border: 3px solid white;
     background: black;
+    border-radius: 3px;
 margin: auto;
 width: 50%;
 color: white;
+animation-name: slidein;
+animation-duration: 3s;
 
 }
 .card-parent{
@@ -89,21 +92,6 @@ position:fixed
     margin: 2%; 
     position:fixed
     }
-#joke:active{
-.detection{
-     opacity: 100%;
-     z-index: 1;
-      max-height: 50rem;
-    max-width: 50 rem;  
-      }
-}
-.detection{
-opacity: 0%;
-z-index: 1;
-max-height: 50rem;
-max-width: 50 rem;  
-}
-
 
     #alert:hover{
         transform: scale(1.25);
@@ -131,3 +119,16 @@ color: black
 .card-parent:hover .card-child:not(:hover){
     transform: scale(0.9);
 }
+
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 50%;
+    }
+  
+    to {
+      margin-left: 24.9%;
+      width: 50%;
+    }
+  }
+
