@@ -73,6 +73,8 @@ img{
 .card-child:hover{
     transform: scale(1.25)
     rotate(360deg);
+    background-color: white;
+    color:black;
 }
    
 #alert{
@@ -128,7 +130,7 @@ animation-duration: 3s;
 .card-parent:hover .card-child:not(:hover){
     transform: scale(0.9);
     opacity: 70%;
-    
+
 }
 
 @keyframes slidein {
