@@ -27,6 +27,7 @@ font-size: 3rem;
     background: black;
     border-radius: 3px;
 margin: auto;
+margin-bottom: 20px;
 width: 50%;
 color: white;
 animation-name: slidein;
