@@ -109,17 +109,26 @@ position:fixed
     }
     html{
         background-color: white;
-}
-#mainheader{
-    font-family: 'Indie Flower', cursive;
-margin: 50px;
-color: black
+    }
+.main-header{
+
+text-align: center;
+font-family: 'Indie Flower', cursive;
+border: 3px solid black;
+background: white;
+border-radius: 3px;
+margin: auto;
+width: 50%;
+color: white;
+animation-name: slidein;
+animation-duration: 3s;
 }
 }
 
 .card-parent:hover .card-child:not(:hover){
     transform: scale(0.9);
     opacity: 70%;
+    
 }
 
 @keyframes slidein {
